@@ -65,3 +65,11 @@ Two Korean men in messy business shirts hugging each other tightly, slowly and g
   Maintain consistent cinematic neon lighting, photorealistic textures, and realistic zero-gravity physics throughout all transitions.
 
   ```
+
+* Gemini pro 3.1 extended로 수행
+ 
+   ```
+
+Create a continuous cinematic sequence animating the provided 4 images in chronological order.  [Scene 1] The upside-down worker sways gently. STRICT ZERO GRAVITY: Papers and cups MUST just float suspended in mid-air or drift very slowly. Nothing falls downwards.  [Scene 2] Transition to the second man frog-swimming. He pushes the glowing purple liquid sphere towards the first man.  [Action] The first man leans in and takes a bite of the floating purple liquid sphere.  [Scene 3] Transition to the close-up of the crying face. STRICT ZERO GRAVITY TEARS: The tears do NOT scatter or drip. Due to high surface tension, they form a large, cohesive, wobbling water balloon that clings tightly to his eyes and cheeks.  [Scene 4] Transition to the two men hugging. They slowly and gracefully spin on their axis in mid-air. Papers remain suspended, floating gently around them. Photorealistic, consistent cinematic neon lighting.
+
+    ```
