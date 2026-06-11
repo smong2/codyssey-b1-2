@@ -39,3 +39,37 @@
 가장 마음에 드는 이미지를 저장합니다. (파일명: scene01_worker.png)
 
 생성이 완료되면 "Scene 1 이미지 뽑았어!"라고 알려주세요. 바로 Scene 2(개구리 헤엄치는 친구) 프롬프트로 넘어가겠습니다!
+
+---
+> 컷씬 이미지 재 생성
+
+cut 01-01
+
+` A highly detailed, cinematic extreme close-up shot of a tired South Korean male software engineer in his late 20s, staring blankly at a laptop screen in a completely dark office at night. The cold blue light of the coding screen is intensely reflected on the lenses of his glasses, obscuring his eyes slightly and emphasizing his burnout. His head is supported by his hand, weary expression, dark circles under his eyes, realistic skin texture with sweat. The background is a vast, dark open-plan office with only distant, blurred LED indicators. Lighting is dark and moody with a dramatic contrast between the cold blue light and shadows. Shot on Sony A1, 16:9 aspect ratio, 8k resolution, ultra-photorealistic, shallow depth of field.
+`
+
+---
+영상 생성 sora 2 
+
+
+
+`
+Maintain the exact appearance of the South Korean male developer from the original image. Subtle micro-movements of his eyes and a very slow, natural blink. The cold blue light from the laptop screen should flicker slightly on his glasses and face, keeping the dark, professional, and exhausted atmosphere of a Korean office environment. No change in the person's identity or facial features.
+Reference image: http://mong.or.kr/contents/cut01_01.png
+`
+
+컷씬은 한국인을 명시했으나, 영상에는 한국인을 명시하지 않았는데, 외국인이 등장함.
+한국인을 명시하니 한국인은 나왔지만 제시한 이미지와는 다른 인물이 나옴.
+
+gemini pro 로 영상 생성을 요청해서 제대로 된 영상을 얻음
+
+
+----------------------------
+
+cut 01_02
+
+`Cinematic medium close-up shot focusing on the hands of the same South Korean male developer from the previous scene, actively typing on a sleek mechanical keyboard in the same dark office. The environment is dimly lit, with the bright blue coding interface from the laptop screen illuminating the hands and the desk surface. Scattered notes, a half-empty coffee mug, and various office supplies on the wooden desk, all in soft focus. The atmosphere is tense and focused, nighttime office vibe, professional cinematography, 8k, photorealistic, shallow depth of field.`
+
+영상 생성
+Maintain the consistent appearance of the South Korean male developer's hands and clothing from the original image. The fingers should move naturally and rhythmically on the mechanical keyboard, performing a focused typing action. Add a subtle, realistic flickering light effect from the monitor onto the hands and the desk surface to enhance the dark office atmosphere. Ensure the motion is smooth, steady, and perfectly matches the focused mood.
+톤앤매너 지켜서 영상 만들어줘.
