@@ -70,7 +70,9 @@
 * **사용 도구 및 목적:** * `Sora 2`: 마찰력과 감속이 들어간 캔의 미끄러짐 물리 현상을 어색함 없이 구현
 * **입력 프롬프트 (원문):** `A sleek energy drink can sliding smoothly and swiftly across a dark office wooden desk, fast sliding motion showing dynamic energy, low angle tracking shot, blurry background of computer peripheral, cinematic office low-light, 4k.`
 * **출력 결과 요약:** 책상 위를 부드럽게 미끄러지며 프레임 안으로 진입하는 캔의 액션 확보
-* **파일명:** `cut02_01_can_sliding.mp4`
+* **파일명:** 
+`cut_02_01.png`
+`cut_02_01.mp4`
 
 #### [Cut 2-2] 캔 정지 및 브랜드 노출
 * **컷 번호 / 길이:** Cut 2-2 / 4초 (00:11 ~ 00:15)
