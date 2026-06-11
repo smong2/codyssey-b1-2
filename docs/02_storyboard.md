@@ -28,8 +28,13 @@
   * *텍스트:* 없음
 * **내레이션 (TTS-1):** "대한민국에서 개발자로 산다는 것." (담담하고 지친 톤)
 * **사용 도구 및 목적:** * `GPT 모델`: 모니터 반사광이 맺힌 사실적인 안경/눈빛 키 비주얼 생성
+  * 이미지 생성 (gpt) :
+
+* ** 수정 전 입력 프롬프트 (원문):**  `Extreme close-up of a tired South Korean male software engineer's eyes, cold blue laptop screen light reflecting deeply on his glasses, dark office background, subtle micro-movements, shallow depth of field, cinematic lighting, 4k.`
+
+* ** 입력 프롬프트: ** `A highly detailed, cinematic extreme close-up shot of a tired South Korean male software engineer in his late 20s, staring blankly at a laptop screen in a completely dark office at night. The cold blue light of the coding screen is intensely reflected on the lenses of his glasses, obscuring his eyes slightly and emphasizing his burnout. His head is supported by his hand, weary expression, dark circles under his eyes, realistic skin texture with sweat. The background is a vast, dark open-plan office with only distant, blurred LED indicators. Lighting is dark and moody with a dramatic contrast between the cold blue light and shadows. Shot on Sony A1, 16:9 aspect ratio, 8k resolution, ultra-photorealistic, shallow depth of field.`
+
   * `Sora 2`: 정지 이미지에 미세한 눈 깜빡임 및 초점 흔들림 구현
-* **입력 프롬프트 (원문):** `Extreme close-up of a tired South Korean male software engineer's eyes, cold blue laptop screen light reflecting deeply on his glasses, dark office background, subtle micro-movements, shallow depth of field, cinematic lighting, 4k.`
 * **출력 결과 요약:** 안경에 코딩 화면 푸른 빛이 반사된 채 미세하게 움직이는 지친 눈빛 확보
 * **파일명:** `cut01_01_eyes_close.mp4`
 
