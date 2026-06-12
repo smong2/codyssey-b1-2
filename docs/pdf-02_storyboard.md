@@ -68,7 +68,58 @@
   * *텍스트:* 없음
 * **내레이션 (TTS-1):** "당신의 야근 회복제는..."
 * **사용 도구 및 목적:** * `Sora 2`: 마찰력과 감속이 들어간 캔의 미끄러짐 물리 현상을 어색함 없이 구현
-* **입력 프롬프트 (원문):** `A sleek energy drink can sliding smoothly and swiftly across a dark office wooden desk, fast sliding motion showing dynamic energy, low angle tracking shot, blurry background of computer peripheral, cinematic office low-light, 4k.`
+* **입력 프롬프트 (원문):** 
+`A cinematic, low-angle tracking shot at desk level in a dark, moody South Korean office. An upright, sleek silver metallic beverage can smoothly slides across the surface of a dark wooden desk, gradually decelerating to a gentle stop. The camera slightly tracks the sliding can. The bold, modern text "OVERTIME" is clearly printed on the side of the can. The background is intentionally out of focus (shallow depth of field), revealing a blurred mechanical keyboard, tangled mouse cords, and sticky notes illuminated by a cold blue monitor light. The metallic surface of the sliding can dynamically reflects the blue screen light as it moves. Ultra-photorealistic, 8k, realistic physics of sliding and friction. No hands are visible.`
+
+* **동영상 프롬프트 (원문):**
+`A photorealistic tall aluminum can lying perfectly flat on its 
+side on a dark wood-grain desk. The can has a brushed bare-metal 
+silver finish with visible hairline texture — no label, no wrapper. 
+The word "OVERTIME" is printed in bold italic black sans-serif 
+capital letters, centered on the can body. The pull-tab faces right.
+Behind the desk: an out-of-focus keyboard and glowing monitor 
+casting cool blue ambient light. Dark, cinematic, late-night 
+gaming atmosphere.
+
+— MOTION RULES (CRITICAL) —
+
+The can slides from left to right at extreme speed across the desk.
+
+ROTATION IS ABSOLUTELY FORBIDDEN:
+- The can must NOT roll.
+- The can must NOT spin.
+- The can must NOT rotate on any axis.
+- The can must NOT wobble or tilt.
+- Imagine the can is FROZEN INSIDE A FLAT RECTANGULAR ICE BLOCK 
+  that slides across the desk. The ice block cannot roll — 
+  therefore the can cannot roll. The can's orientation is 
+  permanently locked as if welded to a flat tray.
+- The "OVERTIME" text must face the camera at the exact same 
+  angle in EVERY SINGLE FRAME from start to finish.
+
+TEXT PRESERVATION (CRITICAL):
+- The word "OVERTIME" must remain IDENTICAL in every frame.
+- Same font, same size, same position, same letter shapes.
+- No warping, no smearing, no morphing, no distortion.
+- The text is physically ENGRAVED into the metal — it cannot 
+  change shape or disappear.
+- Treat "OVERTIME" as a FIXED TEXTURE permanently baked onto 
+  the can surface. It never changes.
+
+— CAMERA AND BLUR —
+
+Camera tracks the can in perfect sync (follow-cam), keeping the 
+can razor-sharp at all times. The entire background — desk, 
+keyboard, monitor — becomes extreme horizontal motion blur 
+streaks due to the speed. The dramatic contrast between the 
+sharp can and violently blurred background is the hero visual.
+
+Blue monitor light streaks across the brushed metal surface 
+during the slide. No hands, no people.
+
+8K, photorealistic, cinematic motion-blur, professional energy 
+drink product commercial.`
+
 * **출력 결과 요약:** 책상 위를 부드럽게 미끄러지며 프레임 안으로 진입하는 캔의 액션 확보
 * **파일명:** 
 `cut_02_01.png`
@@ -84,8 +135,24 @@
 * **내레이션 (TTS-1):** "...무엇입니까?"
 * **사용 도구 및 목적:** * `GPT 모델 & Sora 2`: 표면에 차가운 물방울이 맺힌 캔의 하이퍼 리얼리스틱 질감 표현 및 선명한 텍스트 렌더링 고정
 * **입력 프롬프트 (원문):** `Extreme close-up macro shot of a metallic energy drink can stopping perfectly on a desk. The can has distinct embossed text "OVERTIME" on its label, covered in cold crisp condensation droplets. Neon blue and orange rim lighting, crisp sharp focus, 4k.`
+
+* **동영상 입력 프롬프트:**
+`[SCENE CONTINUITY & ANCHOR] > This video is a direct continuation of the sliding can shown in the previous video (cut_02_01.mp4). The video must start exactly from the visual state of the reference image (http://mong.or.kr/contents/cut_02_01.png) where the tall silver aluminum can lies perfectly flat on its side on a dark wood-grain desk with the word "OVERTIME" centered. As it slides and settles, it transitions seamlessly into the highly-detailed, frosty, condensation-covered state of the reference image (http://mong.or.kr/contents/cut_02_02.png) at its final stopping point.
+
+[ACTION & STOP] > The metallic can slides rapidly from left to right across the desk and comes to a sudden, precise, and solid stop right next to an out-of-focus keyboard and glowing monitor.
+
+[PHYSICS & ROTATION LOCK] > ROTATION IS ABSOLUTELY FORBIDDEN: The can must NOT roll, spin, rotate on any axis, wobble, or tilt. It stays perfectly flat on its side the entire time. The "OVERTIME" text must face the camera at the exact same angle in EVERY SINGLE FRAME.
+
+[TEXT PRESERVATION] > The bold italic black sans-serif capital letters "OVERTIME" must remain IDENTICAL, razor-sharp, and completely undistorted in every single frame. Treat "OVERTIME" as an engraved, FIXED TEXTURE permanently baked onto the can surface. No warping, smearing, morphing, or disappearing.
+
+[CAMERA, BLUR, & LIGHTING] > A follow-cam tracks the can in perfect sync, keeping the can razor-sharp. The entire background (desk, keyboard, glowing monitor casting cool blue light) becomes extreme horizontal motion blur streaks due to the speed. Cool blue and ambient orange light streaks across the brushed metal surface and water droplets during the slide. No hands, no people.
+
+8K, photorealistic, cinematic motion-blur, professional energy drink product commercial.`
+
 * **출력 결과 요약:** 차가운 성에와 물방울이 맺힌 'OVERTIME' 캔이 포커스인되며 멈추는 비주얼 완성
-* **파일명:** `cut02_02_can_focus_in.mp4`
+* **파일명:** 
+`cut02_02.png`
+`cut02_02.mp4`
 
 ---
 
@@ -100,9 +167,58 @@
   * *텍스트:* 없음
 * **내레이션 (TTS-1):** "좋아하는 코딩을 계속하려면,"
 * **사용 도구 및 목적:** * `Sora 2`: 물체를 인지하고 자연스럽게 손가락으로 감싸 쥐는 인간의 연동 모션 구현
-* **입력 프롬프트 (원문):** `POV close-up shot of a male hand reaching out and tightly grabbing a cold, sweating metallic energy drink can on an office desk. Realistic hand grip, soft ambient light shifting to slightly warmer tones, shallow depth of field, 4k.`
+* **입력 프롬프트 (원문):** `
+Cinematic close-up shot of the same South Korean male software engineer in his late 20s from the previous scenes, sitting at his desk in a completely dark office at night. His weary hand reaches out to touch or pick up a sleek, tall aluminum beverage can resting on the dark wood-grain desk right next to his laptop. The brushed bare-metal can is perfectly upright, covered in cold, crisp condensation droplets and fine frost. The bold, sans-serif capital letters "OVERTIME" are precisely centered on the can's body, razor-sharp, perfectly legible, and undistorted. Dramatic neon blue and orange rim lighting highlights the condensation, the metallic texture of the can, and the contours of his hand. The background features a heavily blurred keyboard and a glowing monitor casting cool blue ambient light. Ultra-photorealistic, 8K resolution, dramatic late-night gaming office atmosphere, professional cinematic commercial aesthetic, shallow depth of field.`
+
+* **동영상 프롬프트:**
+`Extreme close-up macro shot. A brushed bare-metal silver aluminum 
+can with visible hairline texture — no label, no wrapper — sits 
+perfectly still on a dark wood-grain desk. The word "OVERTIME" is 
+printed in bold italic black sans-serif capital letters, centered 
+on the can body. The text is razor-sharp, fully legible, and 
+perfectly undistorted.
+
+The can surface is covered in cold crisp condensation droplets 
+that catch the light. Tiny water beads cling to the brushed metal, 
+some dripping slowly.
+
+A male right hand grips the can from the side. The hand has:
+- Light ivory / pale beige skin tone, slightly cool-toned from 
+  blue monitor light
+- Subtle veins and tendons visible on the back of the hand
+- Clean, short-trimmed fingernails with no polish
+- Slim but not skinny fingers, natural masculine proportions
+- A dark charcoal / black long-sleeve shirt covering the wrist, 
+  with the sleeve edge just reaching the base of the palm
+
+The grip is firm but relaxed — fingers wrapped around the can 
+naturally, thumb on one side, four fingers on the other, as if 
+the person just grabbed it mid-work.
+
+Background: a coding screen with syntax-highlighted code (blue, 
+green, orange text on dark background) is visible but heavily 
+blurred (shallow depth of field, f/1.4 bokeh). Soft bokeh circles 
+from small LED indicator lights float in the deep background. 
+A dark office environment at night.
+
+Lighting: Cool blue ambient light from the monitor illuminates 
+the hand and can from the left side. Subtle warm rim light 
+(neon orange or amber) outlines the can edge and knuckles from 
+the right, creating dramatic two-tone separation. Deep shadows 
+fill the spaces between fingers.
+
+The can is PERFECTLY STILL. No motion. No blur. Static frame.
+The "OVERTIME" text must remain IDENTICAL, sharp, and fully 
+readable — treat it as a fixed engraving on the metal surface.
+
+8K, photorealistic, hyper-realistic condensation texture, 
+cinematic shallow depth of field, professional energy drink 
+product commercial aesthetic.`
+
 * **출력 결과 요약:** 캔을 잡는 손의 안정적이고 매끄러운 움켜짐 씬 확보
-* **파일명:** `cut03_01_hand_grab.mp4`
+* **파일명:** 
+`cut_03_01.png`
+`cut_03_01.mp4`
 
 #### [Cut 3-2] 동료의 따뜻한 미소
 * **컷 번호 / 길이:** Cut 3-2 / 4초 (00:19 ~ 00:23)
@@ -113,9 +229,60 @@
   * *텍스트:* 없음
 * **동료 대사 (TTS-1 오버랩):** "동기야, 우리 이번에 퇴근하자." (위트 있고 다정하게 툭 던지는 목소리)
 * **사용 도구 및 목적:** * `Gemini Pro 3.1 & Sora 2`: 이전 컷들의 어두운 블루 톤 콘텍스트를 이어받되, 조명을 웜 앰버(Warm Amber) 톤으로 전환하여 정서적 온도를 극대화
-* **입력 프롬프트 (원문):** `Medium shot of a South Korean female colleague standing in the dimly lit office hallway, warm amber accent lights in background. She is smiling warmly and making a subtle cheering gesture. Soft cinematic bokeh, emotional contrast from cold to warm, 4k.`
+* **입력 프롬프트 (원문):** `[STYLE REFERENCE - DO NOT GENERATE, USE AS STYLE GUIDE]
+
+Cinematic late-night office scene. East Asian male subject,
+warm beige skin tone, realistic photographic texture,
+cold blue monitor lighting mixed with warm amber accent.
+
+SHIRT: Deep navy blue knit sweater / long-sleeve top,
+color: #1a2340 ~ #1e2a4a, soft fabric texture,
+reflecting cold blue monitor light on surface. 4K, shallow DOF.
+
+CAN DESCRIPTION (MUST MATCH EXACTLY):
+- Standard aluminum energy drink can (not slim — regular proportion)
+- Surface: brushed silver-grey aluminum with realistic 
+  condensation water droplets all over
+- Label text: "OVERTIME"
+- Font: Bold italic condensed sans-serif, 
+  heavy weight, slightly right-leaning italic angle
+  (similar to Impact Italic or Bebas Neue Italic style)
+- Letter color: pure black (#000000), flat, no gradient
+- Text placement: centered horizontally on can body, 
+  large and dominant
+- Lighting on can: left side cold blue (#4a90d9), 
+  right side warm amber (#c87941), 
+  creating metallic gradient across surface
+
+
+[GENERATE THIS SCENE]
+
+Medium shot. South Korean female colleague, late 20s,
+business casual dark blazer, leaning over office partition at night.
+Warm genuine smile, subtle encouraging hand gesture.
+
+SKIN: match reference — warm beige, photorealistic texture.
+
+SHIRT REFERENCE (male subject in background or implied):
+Deep navy blue knit sweater (#1a2340),
+cold blue monitor light reflecting off fabric surface.
+
+LIGHTING: warm amber halo from hallway lights (#F5A623),
+residual cold blue from distant monitors — emotional warm transition.
+
+Background: blurred dark office corridor, amber bokeh,
+dark partitions. Cinematic 4K, Korean commercial film aesthetic,
+Sony A7IV quality. Mood: tired solidarity, late-night warmth.`
+
+* **동영상 프롬프트**
+`
+
+`
+
 * **출력 결과 요약:** 지친 주인공을 바라보며 따뜻하게 미소 짓는 동료의 안도감 섞인 표정 생성
-* **파일명:** `cut03_02_colleague_smile.mp4`
+* **파일명:** 
+`cut_03_02.png`
+`cut_03_02.mp4`
 
 ---
 
