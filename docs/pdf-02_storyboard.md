@@ -75,14 +75,13 @@
   - **[수정 전]** "손이 캔을 잡는 모습" 지시. 손과 캔의 부자연스러운 렌더링, 캔 비율 붕괴 현상 발생.
   - **[수정 후]** `Standard-sized 355ml sleek can`, `OVERTIME text engraved vertically` 등 캔의 규격과 텍스트 제약 조건 추가.
 - 입력 프롬프트 (이미지): A cinematic, low-light, extreme macro photograph. A standard-sized 355ml sleek brushed aluminum can stands perfectly upright on a dark surface. The can is completely encrusted with thick frost, heavy water condensation droplets, and small ice crystals, making it look freezing cold. A male's right hand with a black sleeve grips the can tightly. The bold, black, brushstroke-style text 'OVERTIME' is engraved vertically across the can't body. The blurred bokeh background shows a moody office at night with glowing, blurred computer screens displaying lines of code. Dramatic, high-contrast lighting with a strong cool blue ambient hue. 8k, photorealistic.  
-
 - **입력 프롬프트 (비디오):** A first-person perspective (POV) shot. A photorealistic, tall, slender brushed silver aluminum can stands perfectly upright on a dark wooden desk. The can is covered in hyper-realistic frost and condensation. The bold black text 'OVERTIME' is printed vertically on the can. A male right hand, wearing a dark black sleeve, enters the frame from the right side. The hand moves smoothly and realistically, reaching out and firmly gripping the cold can. The fingers wrap naturally around the metallic surface. The can and typography remain perfectly sharp and static.
 - **결과 요약:** 비율이 교정된 캔과 손의 안정적인 움켜짐 씬 확보
 - **파일명:** `cut_03_01.png`, `cut_03_01.mp4`
 
 ### [Cut 3-2] 동료의 따뜻한 미소
 
-- **길이:** 4초 | **목표 메시지:** 지친 밤의 연대감 전달
+- **길이:** 6초 | **목표 메시지:** 지친 밤의 연대감 전달
 - **화면 구성:** [구도] 미디엄 샷 / [피사체] 파티션 너머의 동료 / [배경] 앰버 조명 사무실 / [텍스트] 없음
 - **내레이션:** "동기야, 우리 이번에 퇴근하자."
 - **사용 도구:** 이미지(GPT-5), 영상(Gemini Pro 3.1, 따뜻한 웜톤 라이팅)
@@ -105,7 +104,7 @@
 ## 4. 최종 영상 스펙
 
 - **파일명:** `OVERTIME_branding_final.mp4`
-- **길이:** 32초
+- **길이:** 34초
 - **해상도:** 1920x1080 (1080p)
 - **프레임레이트:** 30fps
 - **비디오 코덱:** H.264
