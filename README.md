@@ -101,6 +101,9 @@ list
 <li>
 <a href="./docs/1080X1920_final.mp4">최종영상 short-form 용</a>
 </li>
+<li>
+<a href="./docs/identity_n_storyboard.pdf">PDF 출력본</a>
+</li>
 </ul>
 </td>
 <tr>
