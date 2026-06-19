@@ -23,7 +23,7 @@
 
 ### [Cut 1-1] 인물 초근접 클로즈업
 
-<img src="../asset/cut-image/cut_01_01.png" width="200"/>
+<img src="../asset/cut-image/cut_01_01.png" width="400"/>
 
 - **길이:** 4초  
 - **목표 메시지:** 야근에 지친 K-직장인의 피로감 전달
@@ -37,7 +37,7 @@
 
 ### [Cut 1-2] 데스크 인서트 샷
 
-<img src="../asset/cut-image/cut_01_02.png" width="200"/>
+<img src="../asset/cut-image/cut_01_02.png" width="400"/>
 
 - **길이:** 4초 
 - **목표 메시지:** 밤샘 코딩 노동의 시각화
@@ -51,7 +51,7 @@
 
 ### [Cut 2-1] 캔 음료 미끄러짐
 
-<img src="../asset/cut-image/cut_02_01.png" width="200"/>
+<img src="../asset/cut-image/cut_02_01.png" width="400"/>
 
 
 - **길이:** 4초 
@@ -66,7 +66,7 @@
 
 ### [Cut 2-2] 캔 정지 및 브랜드 노출
 
-<img src="../asset/cut-image/cut_02_02.png" width="200"/>
+<img src="../asset/cut-image/cut_02_02.png" width="400"/>
 
 - **길이:** 4초 
 - **목표 메시지:** 제품명 'OVERTIME'의 시각적 각인
@@ -80,7 +80,7 @@
 
 ### [Cut 3-1] 캔을 움켜쥐는 손
 
-<img src="../asset/cut-image/cut_03_01.png" width="200"/>
+<img src="../asset/cut-image/cut_03_01.png" width="400"/>
 
 - **길이:** 4초 
 - **목표 메시지:** 호의를 받아들이는 주체적 액션
@@ -97,7 +97,7 @@
 
 ### [Cut 3-2] 동료의 따뜻한 미소
 
-<img src="../asset/cut-image/cut_03_02.png" width="200"/>
+<img src="../asset/cut-image/cut_03_02.png" width="400"/>
 
 - **길이:** 6초 
 - **목표 메시지:** 지친 밤의 연대감 전달
@@ -111,7 +111,7 @@
 
 ### [Cut 4-1] 함께 걷는 퇴근길
 
-<img src="../asset/cut-image/cut_04_01.png" width="200"/>
+<img src="../asset/cut-image/cut_04_01.png" width="400"/>
 
 - **길이:** 8초 
 - **목표 메시지:** 해방감과 브랜드 최종 각인
