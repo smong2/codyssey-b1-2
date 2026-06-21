@@ -94,6 +94,7 @@ list
 </li>
 <li>
 <a href="./docs/OVERTIME_branding_final.mp4">최종영상</a>
+<a href="./docs/OVERTIME_branding_final_2nd.mp4">최종영상-씬 일부 다른도구로 변경 (sora 2 -> gemini pro 3.1 (filename postfix : _2nd.mp4)</a>
 </li>
 <li>
 <a href="./docs/1080X1080_final.mp4">최종영상 facebook 등 컨텐츠용</a>
